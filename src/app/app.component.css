@@ -1,0 +1,298 @@
+/* .editor-note{
+margin-left: 10px;
+padding-top: 10px;
+color: blue;
+font-size: larger
+}
+.some-music{
+    color: blue;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.content{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.img{
+    padding-top: 30px;
+}
+h1,h2{
+    color: purple;
+}
+p{
+    color: grey;
+}
+ul{
+    border: 2px solid orange;
+}
+ol{
+    border: 2px solid purple;
+}
+ol,ul{
+    padding: 5px 20px;
+    border-radius: 4px;
+} */
+
+/* Website Css */
+
+/* html,body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a2a2a;
+}
+p,input,li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2a2a2a;
+}
+h1{
+font-size: 3rem;
+text-align: center;
+color: white;
+text-shadow: 2px 2px 10px black;
+}
+nav,article,aside,footer{
+    background-color: white;
+    padding: 1%;
+}
+nav{
+    height: 50px;
+    background-color: #1821ED ;
+    display: flex;
+    margin-bottom: 10px;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  nav a {
+      display: inline-block;
+      font-size: 1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+  }
+  nav form{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding: 0 2em;
+  }
+  nav a {
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex:  0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  input {
+    font-size: 1rem;
+    height: 30px;
+  }
+  
+  input[type="search"] {
+    flex: 2;
+    margin-top: 0;
+  }
+  
+  input[type="submit"] {
+    flex: 0;
+    margin-left: 1rem;
+    background: #333;
+    border: 0;
+    color: white;
+  } */
+  
+  /* || main layout */
+  
+  /* main {
+    display: flex;
+  }
+  
+  article {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color:  #1821ED;
+  }
+  
+  aside li {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    height: 50%;
+    border-radius: 1em;
+  }
+   */
+
+   html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+  }
+  
+  body {
+    width: 79%;
+    min-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* || typography */
+  
+  h1, h2, h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #2a2a2a;
+  }
+  
+  p, input, li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2a2a2a;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  /* || header layout */
+  
+  header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  body > * {
+    background-color: rgb(77, 235, 93);
+    padding: 1%;
+  }
+  
+  main, header, nav, article, aside, footer, section {
+    background-color: rgba(0,255,0,0.5);
+    padding: 1%;
+  }
+  
+  h1 {
+    flex: 5;
+    text-transform: uppercase;
+  }
+  
+  header img {
+    display: block;
+    height: 60px;
+    padding-top: 55.15px;
+  }
+  
+  nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  /* || main layout */
+  
+  main {
+    display: flex;
+  }
+  
+  article,section {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  
+  aside img {
+    max-width: 100%;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
